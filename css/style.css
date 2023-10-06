@@ -1,0 +1,190 @@
+/* font css part  start*/
+@font-face {
+    font-family: 'Segoe UI', sans-serif;
+    src: url(../fonts/Segoe\ UI.woff);
+}
+/* font css part  end*/
+/* basic css part  start*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+body {
+    background: #18191A;
+    min-height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* basic css part  end*/
+/* post body css part  start*/
+.post_body {
+    width: 503px;
+    padding: 10px 0;
+    background: #242526;
+    border-radius: 5px;
+}
+
+.post_head {
+    padding: 0 18px;
+}
+
+.profile_and_name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile_and_name .profile_photo {
+    position: relative;
+}
+
+.profile_and_name .profile_photo img {
+    width: 46px;
+}
+
+.active_icon i {
+    font-size: 10px;
+    position: absolute;
+    bottom: 6px;
+    left: 34px;
+    color: #31A24C;
+    width: 14px;
+    height: 14px;
+    background: #242526;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 14px;
+}
+
+.head_text h2 {
+    font-size: 15px;
+    color: #E4E6EB;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+}
+
+.head_text h2 span {
+    font-size: 15px;
+    color: #B0B3B8;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+}
+
+.head_text p {
+    font-size: 13px;
+    color: #B0B3B8;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+}
+
+.dot_icon i {
+    font-size: 20px;
+    color: #B0B3B8;
+}
+
+.post_caption p {
+    margin: 10px 0;
+    font-size: 15px;
+    color: #E4E6EB;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+}
+
+.post_caption p span {
+    color: #f1c40f;
+}
+
+.post_down_part {
+    padding: 0 18px;
+    margin-top: 15px;
+}
+
+.reaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reaction .emoji {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.reaction .emoji .icon {
+    width: 60px;
+    display: flex;
+}
+
+.reaction .emoji .icon img {
+    width: 50px;
+}
+
+
+.reaction .emoji .text a {
+    font-size: 15px;
+    color: #B0B3B8;
+    font-weight: 400;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+}
+
+.reaction .emoji .text a:hover {
+    text-decoration: underline;
+}
+
+.reaction .comment {
+    display: flex;
+    gap: 10px;
+}
+
+.reaction .comment a {
+    font-size: 15px;
+    color: #B0B3B8;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+}
+
+.hr_line {
+    margin-top: 13px;
+    width: 100%;
+    height: 1px;
+    background: #3E4042;
+}
+
+.reaction_button {
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.reaction_button a {
+    width: 148px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #B0B3B8;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    line-height: 35px;
+}
+
+.reaction_button a:hover {
+    background: #3A3B3C;
+}
+
+/* post body css part  end*/
